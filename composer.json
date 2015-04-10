@@ -1,0 +1,11 @@
+{
+    "name": "jorgegc/phing-phantomjs",
+    "description": "A collection of PhantomJS targets for Phing.",
+    "type": "library",
+    "keywords": [
+        "phing",
+        "phantomjs"
+    ],
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev"
+}

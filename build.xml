@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="phantomjs" default="phantomjs:launch">
+
+  <!-- ## Properties -->
+
+  <property name="phantomjs.bin"       value="${project.basedir}/node_modules/.bin/phantomjs" />
+  <property name="phantomjs.webdriver" value="4444" />
+
+  <!-- ## Targets -->
+
+  <target name="phantomjs:launch"
+          description="Launches a GhostDriver.">
+    <exec command="${phantomjs.bin} --webdriver=${phantomjs.webdriver}"
+          passthru="true"
+          logoutput="true"
+          checkreturn="true" />
+  </target>
+
+</project>
