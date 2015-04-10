@@ -1,12 +1,12 @@
 {
-  "name": "Phing PhantomJS",
-  "version": "0.0.1",
-  "description": "A collection of PhantomJS targets for Phing.",
-  "dependencies": {},
-  "devDependencies": {
-    "phantomjs": "~1.9.0"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  }
+    "name": "Phing PhantomJS",
+    "version": "0.0.1",
+    "description": "A collection of PhantomJS targets for Phing.",
+    "dependencies": {},
+    "devDependencies": {
+        "phantomjs": "~1.9.0"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
 }
