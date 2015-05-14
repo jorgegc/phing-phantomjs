@@ -13,7 +13,6 @@
           description="Launches a GhostDriver.">
     <exec command="${phantomjs.bin} --webdriver=${phantomjs.webdriver}"
           passthru="true"
-          logoutput="true"
           checkreturn="true" />
   </target>
 
